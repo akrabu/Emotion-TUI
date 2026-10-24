@@ -1,0 +1,36 @@
+# Copy this file to config.toml, then edit the words and colors as desired.
+# Relative log paths are resolved from the directory containing your config.
+log_file = "emotion_log.csv"
+auto_log = true
+
+[[quadrants]]
+title = "High Energy\nUnpleasant"
+color = "red"
+emotions = [
+  "Angry", "Anxious", "Frustrated", "Tense", "Worried", "Irritated",
+  "Restless", "Overwhelmed", "Alarmed", "Impatient", "Uneasy", "Stressed",
+]
+
+[[quadrants]]
+title = "High Energy\nPleasant"
+color = "yellow"
+emotions = [
+  "Excited", "Joyful", "Inspired", "Curious", "Playful", "Enthusiastic",
+  "Confident", "Energized", "Hopeful", "Amused", "Delighted", "Motivated",
+]
+
+[[quadrants]]
+title = "Low Energy\nUnpleasant"
+color = "blue"
+emotions = [
+  "Sad", "Tired", "Lonely", "Bored", "Disappointed", "Drained",
+  "Discouraged", "Gloomy", "Weary", "Unmotivated", "Downcast", "Dull",
+]
+
+[[quadrants]]
+title = "Low Energy\nPleasant"
+color = "green"
+emotions = [
+  "Calm", "Content", "Relaxed", "Peaceful", "Grateful", "Comfortable",
+  "Cozy", "Satisfied", "Serene", "At ease", "Rested", "Thoughtful",
+]
